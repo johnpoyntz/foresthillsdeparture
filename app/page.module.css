@@ -261,74 +261,81 @@
   .overlay {
     left: 6%;
     right: 6%;
-    top: 47%;
-    bottom: 1.5%;
+    top: 52%;
+    bottom: 3%;
     align-items: center;
     gap: 3px;
   }
 
   .infoBar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-    text-align: center;
-    padding: 0 4px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: end;
+    gap: 8px;
+    text-align: left;
+    padding: 0 2px;
   }
 
   .departureRow {
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
     gap: 8px;
   }
 
   .leaveTimer {
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 0;
   }
 
   .leaveTimerValue {
-    font-size: clamp(1.9rem, 10vw, 2.8rem);
+    font-size: clamp(1.8rem, 9.2vw, 2.6rem);
   }
 
   .nextDepartureMini {
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 0;
   }
 
   .timeBlock {
-    text-align: center;
-    align-items: center;
-    justify-self: center;
+    text-align: left;
+    align-items: flex-start;
+    justify-self: start;
   }
 
   .lightColumn {
     margin-top: 0;
-    gap: 6px;
-    justify-self: center;
+    gap: 4px;
+    justify-self: end;
   }
 
   .lightStack {
-    padding: 7px 10px;
+    padding: 6px 9px;
     margin: 0;
+  }
+
+  .light {
+    width: clamp(24px, 6.8vw, 34px);
+    height: clamp(24px, 6.8vw, 34px);
   }
 
   .lightMessage {
     text-align: center;
-    max-width: 92%;
+    max-width: 130px;
     white-space: normal;
     overflow: visible;
     text-overflow: clip;
     line-height: 1.2;
+    font-size: 11px;
   }
 
   .feedStatus {
     width: 100%;
-    text-align: center;
+    text-align: left;
     max-width: 100%;
-    justify-content: center;
+    justify-content: flex-start;
     white-space: normal;
     line-height: 1.1;
     margin-top: 1px;
+    gap: 6px;
   }
 }
