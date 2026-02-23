@@ -261,10 +261,10 @@
   .overlay {
     left: 6%;
     right: 6%;
-    top: 54%;
-    bottom: 4.5%;
+    top: 47%;
+    bottom: 1.5%;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
   }
 
   .infoBar {
@@ -288,7 +288,7 @@
   }
 
   .leaveTimerValue {
-    font-size: clamp(2.1rem, 11vw, 3.2rem);
+    font-size: clamp(1.9rem, 10vw, 2.8rem);
   }
 
   .nextDepartureMini {
@@ -328,7 +328,7 @@
     max-width: 100%;
     justify-content: center;
     white-space: normal;
-    line-height: 1.2;
-    margin-top: 2px;
+    line-height: 1.1;
+    margin-top: 1px;
   }
 }
