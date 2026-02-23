@@ -255,21 +255,21 @@
   .signPanel {
     width: 100%;
     border-radius: 12px;
-    aspect-ratio: 980 / 520;
+    aspect-ratio: 980 / 430;
   }
 
   .overlay {
     left: 6%;
     right: 6%;
-    top: 48%;
-    bottom: 4%;
+    top: 56%;
+    bottom: 4.5%;
     align-items: center;
-    gap: 6px;
+    gap: 4px;
   }
 
   .infoBar {
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
@@ -289,6 +289,7 @@
     justify-content: center;
     white-space: normal;
     line-height: 1.2;
+    margin-top: 1px;
   }
 
   .departureRow {
@@ -313,8 +314,8 @@
   }
 
   .lightColumn {
-    margin-top: 2px;
-    gap: 6px;
+    margin-top: 1px;
+    gap: 4px;
   }
 
   .lightStack {
