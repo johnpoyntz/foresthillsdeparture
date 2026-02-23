@@ -255,52 +255,40 @@
   .signPanel {
     width: 100%;
     border-radius: 12px;
-    aspect-ratio: 980 / 430;
+    aspect-ratio: 980 / 470;
   }
 
   .overlay {
     left: 6%;
     right: 6%;
-    top: 56%;
+    top: 54%;
     bottom: 4.5%;
     align-items: center;
     gap: 4px;
   }
 
   .infoBar {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 8px;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    gap: 6px;
     text-align: center;
-  }
-
-  .lightMessage {
-    text-align: center;
-    max-width: 100%;
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
-  }
-
-  .feedStatus {
-    text-align: center;
-    max-width: 100%;
-    justify-content: center;
-    white-space: normal;
-    line-height: 1.2;
-    margin-top: 1px;
+    padding: 0 4px;
   }
 
   .departureRow {
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    gap: 8px;
   }
 
   .leaveTimer {
     align-items: center;
     margin-bottom: 0;
+  }
+
+  .leaveTimerValue {
+    font-size: clamp(2.1rem, 11vw, 3.2rem);
   }
 
   .nextDepartureMini {
@@ -311,14 +299,36 @@
   .timeBlock {
     text-align: center;
     align-items: center;
+    justify-self: center;
   }
 
   .lightColumn {
-    margin-top: 1px;
-    gap: 4px;
+    margin-top: 0;
+    gap: 6px;
+    justify-self: center;
   }
 
   .lightStack {
     padding: 7px 10px;
+    margin: 0;
+  }
+
+  .lightMessage {
+    text-align: center;
+    max-width: 92%;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 1.2;
+  }
+
+  .feedStatus {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+    justify-content: center;
+    white-space: normal;
+    line-height: 1.2;
+    margin-top: 2px;
   }
 }
