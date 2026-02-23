@@ -1,0 +1,16 @@
+<svg width="360" height="380" viewBox="0 0 360 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 180C20 86.112 96.112 10 190 10H170C263.888 10 340 86.112 340 180V286C340 331.84 302.84 369 257 369H103C57.1604 369 20 331.84 20 286V180Z" fill="#F4F4F4" stroke="#232323" stroke-width="5"/>
+  <path d="M30 175C30 92.7095 96.7096 26 179 26H181C263.29 26 330 92.7096 330 175V192H30V175Z" fill="#9B9EA4"/>
+  <rect x="95" y="44" width="170" height="36" rx="16" fill="#ED8B00" stroke="#232323" stroke-width="4"/>
+  <text x="180" y="69" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#FFFFFF">FOREST HILL</text>
+  <circle cx="64" cy="92" r="10" fill="#CC2B37" stroke="#232323" stroke-width="3"/>
+  <circle cx="180" cy="96" r="7" fill="#CC2B37" stroke="#232323" stroke-width="3"/>
+  <circle cx="296" cy="92" r="10" fill="#CC2B37" stroke="#232323" stroke-width="3"/>
+  <rect x="40" y="194" width="280" height="96" rx="8" fill="#F1F1F1" stroke="#232323" stroke-width="4"/>
+  <rect x="52" y="206" width="82" height="72" rx="14" fill="#C9CBCE" stroke="#232323" stroke-width="4"/>
+  <rect x="140" y="206" width="80" height="72" rx="20" fill="#C9CBCE" stroke="#232323" stroke-width="4"/>
+  <rect x="226" y="206" width="82" height="72" rx="14" fill="#C9CBCE" stroke="#232323" stroke-width="4"/>
+  <rect x="20" y="292" width="320" height="62" rx="6" fill="#ED8B00" stroke="#232323" stroke-width="4"/>
+  <rect x="42" y="312" width="76" height="34" rx="4" fill="#9B9EA4" stroke="#232323" stroke-width="4"/>
+  <rect x="242" y="312" width="76" height="34" rx="4" fill="#9B9EA4" stroke="#232323" stroke-width="4"/>
+</svg>
